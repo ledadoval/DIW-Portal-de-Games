@@ -1,0 +1,200 @@
+.navbar-light .navbar-brand {
+    color: wheat;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: wheat;
+}
+
+.btn-outline-light {
+    color: white;
+    border-color: whitesmoke;
+}
+
+.btn-outline-success:hover{
+    color: wheat;
+    border-color: wheat;
+}
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.destaque-title{
+    text-align: center;
+}
+
+.destheader, .gamesheader, .storesheader, .genresheader{
+    background-color: maroon;
+}
+
+h1.txtdestaques, h1.games, h1.stores, h1.genres{
+    color: wheat;
+    text-align: center;
+}
+
+.body{
+    background-color: rgb(247, 235, 214);
+}
+
+.destaques{
+    padding: 1rem;
+}
+
+.lancamentos{
+    padding: 1rem;
+
+}
+
+.plataformas{
+    padding: 1px;
+}
+
+.container{
+    padding-bottom: 1rem;
+}
+
+.footer-top{
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+#genresid.row, #storesid.row{
+    padding: 10px;
+}
+
+footer{
+    background-color: rgb(128, 0, 0);
+    color: wheat;
+    text-align: left;
+    padding: 10px;
+}
+
+.col-4{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.col-6{
+    padding: 1rem;
+    display: block;
+    align-items: center;
+}
+
+.gamesrheader, .detailsheader{
+    padding: 3rem;
+    text-align: center;
+}
+
+.gamessresult{
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+h1.ghtext, h1.dhtext{
+    background-color: rgb(128, 0, 0);
+    color: wheat;
+    text-transform: uppercase;
+    size: 13px;
+}
+
+.card-title-sr{
+    size: 10px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+a.alink-txt{
+    size: 5px;
+    text-decoration: underline;
+    color: rgb(128, 0, 0);
+}
+
+a.a-txt{
+    size: 5px;
+    text-transform: uppercase;
+    color: rgb(128, 0, 0);
+}
+
+.footercontact{
+    align-content: right;
+}
+
+.card1{
+    padding: 10px;
+}
+
+p, h5{
+    font-size: 13px;
+}
+
+p.texto{
+    font-size: 10px;
+    text-align: center;
+}
+
+p.card-text{
+    size: 2rem;
+    text-align: center;
+}
+
+.card-title{
+    font-size: 18px;
+}
+
+p.card-text{
+    font-size: 10px;
+}
+
+a.cardid, a.storesid, a.genresid{
+    font-size: 10px;
+}
+
+img, svg{
+    color: wheat;
+}
+
+h1{
+    font-size: 1.7vw;
+}
+
+@media only screen and (max-width: 768px){
+    .body{
+        width: 100%;
+    }
+    .genresheader, .storesheader, .gamesheader, .detailsheader{
+        display: block;
+        width: 100%;
+    }
+    h1.txtdestaques, h1.games, h1.stores, h1.genres, h1.dhtext{
+        text-align: center;
+        font-size: medium;
+    }
+
+    .footerlogo{
+       display: none;
+    }
+
+    p.footertext{
+        font-size:x-small;
+    }
+
+    h5.card-title-sr{
+        font-size: 50%;
+        text-size-adjust:inherit
+    }
+
+    p.txt{
+        font-size: 50%;
+    }
+
+    .card-border-danger{
+        size: 50%;
+    }
+
+}
+
